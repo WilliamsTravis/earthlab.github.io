@@ -6,7 +6,7 @@ title: 'Install & Use Packages in R'
 attribution: 'These materials were adapted from Software Carpentry materials by Earth Lab.'
 excerpt: 'Packages are sets of functions that perform tasks that help us work with various data structures in R. This tutorial walks you through installing and loading R packages R in RStudio.'
 dateCreated: 2016-12-12
-modified: '2017-01-13'
+modified: '2017-04-21'
 nav-title: 'Install Packages'
 week: 1
 sidebar:
@@ -17,8 +17,10 @@ permalink: /course-materials/earth-analytics/week-1/install-r-packages/
 author_profile: false
 comments: true
 order: 3
+tags2:
+  scientific-programming: ['RStudio'] 
 ---
-{% include toc title="This Lesson" icon="file-text" %}
+{% include toc title="In This Lesson" icon="file-text" %}
 
 
 ##  Install a Package
@@ -63,7 +65,7 @@ install.packages("ggplot2")
 
 <i class="fa fa-star"></i> **Data Tip** You can install as many packages as you one in one string of code as follows
 `install.packages(c("name-one", "name-two"))`
-{: .notice }
+{: .notice--success}
 
 ## Call Package in R
 

@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "Work with Precipitation Data in R - 2013 Colorado Floods"
-excerpt: "This lesson provides students wiht an example of a data driven report to emphsize the importance of connecting data, documentation and results."
-authors: ['Leah Wasser', 'NEON Data Skills', 'Mariela Perignon']
-modified: '2017-01-13'
+title: "Data driven reports - why documentation is important - Data from the 2013 Colorado Floods"
+excerpt: "This lesson provides students with an example of a data driven report to emphasize the importance of connecting data, documentation and results."
+authors: ['Leah Wasser', 'NEON Data Skills']
+modified: 2017-04-21
 category: [course-materials]
 class-lesson: ['co-floods-1-intro']
 permalink: /course-materials/earth-analytics/week-1/co-floods-data-example-r/
@@ -14,9 +14,12 @@ sidebar:
 author_profile: false
 comments: true
 order: 2
+tags2:
+  earth-science: ['flood-erosion']
+  time-series:
 ---
 
-{% include toc title="This Lesson" icon="file-text" %}
+{% include toc title="In This Lesson" icon="file-text" %}
 
 Several factors contributed to extreme flooding that occurred in Boulder,
 Colorado in 2013. In this lesson we will check our a report that provides some
@@ -64,14 +67,14 @@ A lot of rain impacted Colorado. See below.
 
 
 
-![plot 1]({{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/daily-summaries-1.png)
+<img src="{{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/daily-summaries-1.png" title="plot 1" alt="plot 1" width="100%" />
 
 ## Fall 2013 Precipitation
 
 Let's check out the data for a few months.
 
 
-![plot 2 precip]({{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/subset-data-1.png)
+<img src="{{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/subset-data-1.png" title="plot 2 precip" alt="plot 2 precip" width="100%" />
 
 
-![plot 3 discharge]({{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/all-boulder-station-data-1.png)
+<img src="{{ site.url }}/images/rfigs/course-materials/earth-analytics/week-1/co-floods-1-intro/2016-12-06-erosion-02-precip-discharge-r-example/all-boulder-station-data-1.png" title="plot 3 discharge" alt="plot 3 discharge" width="100%" />

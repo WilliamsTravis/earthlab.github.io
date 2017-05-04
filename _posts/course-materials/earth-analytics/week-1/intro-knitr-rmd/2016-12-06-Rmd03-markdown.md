@@ -1,10 +1,9 @@
 ---
 layout: single
-title: "Intro to Markdown"
-excerpt: 'This tutorial cover how to use Markdown syntax in R and then
-render it to html using knitr.'
+title: "Introduction to Markdown syntax - a primer"
+excerpt: 'This tutorial covers the basics of the markdown syntax. Markdown is a human readable text format that is used in R Markdown files to add text to reports.'
 authors: [Leah Wasser, NEON Data Skills]
-modified: '2017-01-13'
+modified: '2017-04-21'
 category: [course-materials]
 class-lesson: ['intro-rmarkdown-knitr']
 permalink: /course-materials/earth-analytics/week-1/intro-to-markdown/
@@ -15,8 +14,10 @@ sidebar:
 author_profile: false
 comments: true
 order: 3
+tags2:
+  reproducible-open-science: ['rmarkdown']
 ---
-{% include toc title="This Lesson" icon="file-text" %}
+{% include toc title="In This Lesson" icon="file-text" %}
 
 Here, we break down the basic syntax for a markdown file. We also cover how to
 create and format markdown (`.md`) files.
@@ -57,7 +58,7 @@ output HTML document. We will learn about the markdown syntax next.
 
 <i class="fa fa-star"></i> **Data Tip:** This web page that you are reading right now
 is generated from a markdown document.
-{: .notice }
+{: .notice--success}
 
 In this tutorial, we cover the basic syntax of markdown.
 
@@ -135,7 +136,7 @@ There are many free Markdown editors out there! The
 <a href="http://Atom.io" target="_blank">atom.io</a>
 editor is a powerful text editor package by GitHub, that also has a Markdown
 renderer that allows you to preview the rendered Markdown as you write.
-{: .notice }
+{: .notice--success}
 
 ### Explore Your R Markdown File
 
@@ -149,23 +150,6 @@ Does any of the markdown syntax look familiar?
 * Are any words highlighted as code?
 
 If you are unsure, the answers are at the bottom of this page.
-
-<div class="notice--warning" markdown="1">
-
-## <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Activity: R Markdown Text
-
-1. Remove the template markdown and code chunks added to the `.Rmd` file by `RStudio`.
-(Be sure to keep the YAML header!)
-2. At the very top of your .Rmd document - after the YAML header, add
-the bio and short research description that you wrote last week in markdown syntax to
-the .Rmd file.
-3. Between your profile and the research descriptions, add a header that says
-**About My Project** (or something similar).
-4. Add a new header titled: **Data Activity**. Write some text below that header
-that describes what you are learning in this lesson and demonstrates the use of
-bold, italics and code formatting within a paragraph of text.
-
-</div>
 
 *Got questions? Leave your question in the comment box below.
 It's likely some of your colleagues have the same question, too! And also

@@ -43,11 +43,45 @@ earth-analytics-2017:
         url: /course-materials/earth-analytics/
       - title: "Syllabus"
         url: /course-materials/earth-analytics/earth-analytics-syllabus/
-  - title: "Course Weeks 1-3"
+      - title: "Mid-term"
+        url: /course-materials/earth-analytics/mid-term/
+      - title: "Final project"
+        url: /course-materials/earth-analytics/final-project/
+      - title: "Data sources"
+        url: /course-materials/earth-analytics/data-sources/
+  - title: "Weeks 1-2 - Time Series"
     children:
       - title: "Week 1: Getting Started With Data"
         url: /course-materials/earth-analytics/week-1/
       - title: "Week 2: Time Series Data in R"
         url: /course-materials/earth-analytics/week-2/
+  - title: "Weeks 3-5 - Lidar & Spatial data in R"
+    children:
       - title: "Week 3: Lidar Data in R"
         url: /course-materials/earth-analytics/week-3/
+      - title: "Week 4: Review: Raster classification in R"
+        url: /course-materials/earth-analytics/week-4/
+      - title: "Week 5: Spatial data in R"
+        url: /course-materials/earth-analytics/week-5/
+  - title: "Weeks 6-7 - Fire & Spectral RS"
+    children:
+      - title: "Week 6: Fire: spectral remote sensing in R"
+        url: /course-materials/earth-analytics/week-6/
+      - title: "Week 7: Fire 2: spectral remote sensing"
+        url: /course-materials/earth-analytics/week-7/
+  - title: "Weeks 8-9 - Efficient coding"
+    children:
+      - title: "Week 8: Functions"
+        url: /course-materials/earth-analytics/week-8/
+      - title: "Week 9: Present your science"
+        url: /course-materials/earth-analytics/week-9/
+      - title: "Week 10: APIs"
+        url: /course-materials/earth-analytics/week-10/
+      - title: "Week 11: APIs p2"
+        url: /course-materials/earth-analytics/week-11/
+      - title: "Week 12: Twitter data & Text mining"
+        url: /course-materials/earth-analytics/week-12/
+      - title: "Week 13: Twitter data & Text mining"
+        url: /course-materials/earth-analytics/week-13/
+      - title: "Week 14: Group projects"
+        url: /course-materials/earth-analytics/week-14/
