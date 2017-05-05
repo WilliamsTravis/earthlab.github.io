@@ -1,10 +1,10 @@
 ---
 layout: post-by-category
-title: "Data lessons by data type"
-permalink: tags/data-type/
+title: "Open science related data lessons"
+permalink: tags/open-science/
 comments: false
 author_profile: false
 topics:
-  data-type:
+  open-science:
 is-main-topic: true
 ---
